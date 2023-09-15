@@ -11,7 +11,7 @@ public class Main {
         System.out.println("Please enter the price of your item here");
         price = scan.nextDouble();
         sales = price * 1.05;
-        System.out.println("The price of your item after tax is " + sales + " and the price of your tax is " + (price * .05) + ".");
+        System.out.println("The price of your item after tax is $" + sales + " and the price of your tax is $" + (price * .05) + ".");
 
     }
 }
